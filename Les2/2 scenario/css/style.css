@@ -1,0 +1,58 @@
+body {
+   background-image: url(../img/2.jpg);
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 50%;
+   margin: auto;
+   color: #7E7E7E;
+}
+
+.grey {
+   background-color: rgba(172, 185, 202, .5);
+}
+
+.yellow {
+   background-color: rgba(220, 220, 0, .5);
+}
+
+.green {
+   background-color: rgba(146, 208, 80, .5);
+}
+
+.red {
+   background-color: rgba(255, 0, 0, .5);
+}
+
+.orange {
+   background-color: rgba(255, 165, 0, .5);
+}
+
+.yellow1 {
+   background-color: rgba(255, 255, 0, .5);
+}
+
+.green1 {
+   background-color: rgba(0, 128, 0, .5);
+}
+
+.lightblue {
+   background-color: rgba(173, 216, 230, .5)
+}
+
+.blue {
+   background-color: rgba(0, 0, 255, .5);
+}
+
+.violet {
+   background-color: rgba(238, 130, 238, .5);
+}
+
+a img {
+   background-color: rgba(128, 128, 128, .1);
+   width: 100px;
+   border-radius: 100px;
+   position: fixed;
+   bottom: 30px;
+   right: 30px;
+}
