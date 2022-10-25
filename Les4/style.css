@@ -1,0 +1,115 @@
+/*Общие свойства*/
+
+div {
+   box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .5), 3px 3px 5px rgba(0, 0, 0, .5);
+}
+
+.green {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   margin: auto;
+   width: 50vw;
+   height: 90vh;
+   border: 5px solid lightgreen;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.red {
+   border: 5px solid red;
+   width: 95%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.red:nth-child(1), .red:nth-child(4) {
+   height: 15%;
+}
+
+.red:nth-child(2) {
+   height: 10%;
+}
+
+.red:nth-child(3) {
+   height: 40%;
+}
+
+.blue {
+   border: 5px solid blue;
+}
+
+/*Первый .red*/
+
+.red:nth-child(1) .blue, .red:nth-child(4) .blue {
+   height: 80%;
+}
+
+.red:nth-child(1) .blue:nth-child(1), .red:nth-child(1) .blue:nth-child(3),
+.red:nth-child(4) .blue:nth-child(1), .red:nth-child(4) .blue:nth-child(3) {
+   width: 25%;
+}
+
+.red:nth-child(1) .blue:nth-child(2), .red:nth-child(4) .blue:nth-child(2) {
+   width: 40%;
+}
+
+.red:nth-child(1) .blue:nth-child(3), .red:nth-child(3) .blue:nth-child(2), .red:nth-child(4) .blue:nth-child(3) {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.red:nth-child(1) .blue:nth-child(3) .yellow, .red:nth-child(3) .blue:nth-child(2) .yellow, .red:nth-child(4) .blue:nth-child(3) .yellow {
+   border: 5px solid yellow;
+   height: 30%;
+   width: 90%;
+}
+
+/*Второй .red*/
+
+.red:nth-child(2) .blue {
+   height: 60%;
+}
+
+.red:nth-child(2) .blue:nth-child(1), .red:nth-child(2) .blue:nth-child(4) {
+   width: 25%;
+}
+
+.red:nth-child(2) .blue:nth-child(2), .red:nth-child(2) .blue:nth-child(3) {
+   width: 20%;
+}
+
+/*Третий .red*/
+
+.red:nth-child(3) .blue {
+   height: 90%;
+}
+
+.red:nth-child(3) .blue:nth-child(1) {
+   width: 25%;
+}
+
+.red:nth-child(3) .blue:nth-child(2) {
+   width: 70%;
+}
+
+.red:nth-child(3) .blue:nth-child(2) .yellow:nth-child(1) {
+   height: 70%;
+}
+
+.red:nth-child(3) .blue:nth-child(2) .yellow:nth-child(2) {
+   height: 10%;
+}
+
+/*Четвертый .red*/
+
+.red:nth-child(4) {
+   flex-direction: row-reverse;
+}
