@@ -1,0 +1,77 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+input, textarea, select, img {
+   border: 1px solid blue;
+}
+
+body {
+   background-image: url(../img/bg.jpg);
+   height: 100vh;
+   width: 50%;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+form {
+   display: flex;
+}
+
+.form__left {
+   text-align: right;
+   width: 35%;
+   margin-right: 15px;
+}
+
+.form__left .spam {
+   margin-top: 150px;
+}
+
+.form__right {
+   width: 60%;
+}
+
+.form__left div, .form__right div {
+   margin: 10px 0;
+}
+
+input, select {
+   width: 50%;
+}
+
+textarea {
+   width: 100%;
+   resize: none;
+}
+
+.input_spam {
+   display: flex;
+}
+
+.input_spam input {
+   width: 20%;
+   height: 20px;
+}
+
+.input_spam div {
+   margin: 0;
+}
+
+.input_spam img {
+   margin: 0 5px 0 20px;
+}
+
+a {
+   color: #000;
+}
+
+.form__right input[type="submit"] {
+   width: 22%;
+   padding: 5px 0;
+}
