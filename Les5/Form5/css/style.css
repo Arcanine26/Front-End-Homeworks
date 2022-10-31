@@ -1,0 +1,115 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-image: url(../bg.jpg);
+   background-size: cover;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: sans-serif;
+}
+
+form {
+   width: 20vw;
+   box-shadow: 0px 0px 10px 5px lightgray;
+}
+
+.form .header, .form .footer {
+   background-color: rgb(174, 201, 255);
+   padding: 20px;
+   font-size: 24px;
+}
+
+.form .field {
+   background-color: rgb(154, 181, 220);
+   display: flex;
+}
+
+.form .field__left {
+   width: 40%;
+}
+
+.form .field__left div {
+   margin: 60px 0 60px 30px;
+}
+
+.form .field__right {
+   width: 60%;
+}
+
+.form .field__right div {
+   margin: 40px 0;
+}
+
+.form .field__right div:nth-child(1), .form .field__right div:nth-child(2) {
+   background-color: #fff;
+   width: 90%;
+   text-align: right;
+   border: 3px solid lightgray;
+   text-align: center;
+}
+
+.form .field__right div:nth-child(1) input, .form .field__right div:nth-child(2) input {
+   width: 80%;
+   outline: none;
+   border: none;
+   padding: 10px;
+}
+
+.form .field__right i {
+   width: 20%;
+   font-size: 20px;
+   color: lightgray;
+   padding: 10px;
+   border-left: 1px solid lightgray;
+}
+
+.form .field__right div:nth-child(2) {
+   margin-bottom: 0;
+}
+
+.form .field__right div:nth-child(3) {
+   margin: 20px 0;
+}
+
+.form .field__right label {
+   font-size: 20px;
+}
+
+.form .field__right input[type="checkbox"] {
+   margin-right: 10px;
+   width: 20px;
+   height: 20px;
+}
+
+.footer {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.footer button {
+   background-color: lightgray;
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+   margin-right: 20px;
+}
+
+.footer button a {
+   color: #fff;
+   font-size: 20px;
+   text-decoration: none;
+}
+
+.footer input[type="submit"] {
+   background-color: rgb(77, 90, 172);
+   color: #fff;
+   font-size: 20px;
+   padding: 10px 20px;
+   border: none;
+}
