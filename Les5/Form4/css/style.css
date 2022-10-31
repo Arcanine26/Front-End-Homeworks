@@ -74,4 +74,5 @@ input[type="submit"] {
    border: none;
    margin-right: 20px;
    padding: 0;
+   cursor: pointer;
 }
