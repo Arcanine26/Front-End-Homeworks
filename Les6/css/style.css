@@ -70,9 +70,9 @@ h3 {
 .content div:nth-child(1) {
    transform: translate(-50vw, 0);
    animation-name: slideFromLeft;
-   animation-duration: 5s;
+   animation-duration: 3s;
    animation-fill-mode: both;
-   animation-delay: 3s;
+   animation-delay: 2s;
 }
 
 @keyframes slideFromLeft {
@@ -90,9 +90,9 @@ h3 {
 .content div:nth-child(2) {
    transform: translate(0, 10vh);
    animation-name: slideFromCenter;
-   animation-duration: 5s;
+   animation-duration: 3s;
    animation-fill-mode: both;
-   animation-delay: 3s;
+   animation-delay: 2s;
 }
 
 @keyframes slideFromCenter {
@@ -110,9 +110,9 @@ h3 {
 .content div:nth-child(3) {
    transform: translate(50vh, 0);
    animation-name: slideFromRight;
-   animation-duration: 5s;
+   animation-duration: 3s;
    animation-fill-mode: both;
-   animation-delay: 3s;
+   animation-delay: 2s;
 }
 
 @keyframes slideFromRight {
