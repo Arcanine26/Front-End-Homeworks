@@ -5,6 +5,14 @@
    font-family: sans-serif;
 }
 
+body {
+   height: 100%;
+   overflow-x: hidden;
+   background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../bg.gif);
+   background-repeat: no-repeat;
+   background-size: 100vw 100vh;
+}
+
 h1 {
    text-align: center;
    margin: 40px 0;
@@ -162,7 +170,7 @@ h1 {
    position: absolute;
    right: 0;
    top: 44px;
-   background: rgba(200, 200, 200, .5);
+   background: rgba(200, 200, 200, .9);
 }
 
 .submenu ul {
