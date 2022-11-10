@@ -133,7 +133,7 @@ h1 {
    list-style: none;
 }
 
-.headerSecond a {
+.headerSecond>nav>ul>li>a {
    padding: 25px;
    border-right: 1px solid lightgrey;
    color: #444;
@@ -145,6 +145,44 @@ h1 {
    font-weight: 700;
 }
 
-.headerSecond a:hover {
+.headerSecond>nav>ul>li>a:hover {
    background-color: lightgrey;
+}
+
+.pos__menu:hover .submenu {
+   display: block;
+}
+
+.pos__menu {
+   position: relative;
+}
+
+.submenu {
+   display: none;
+   position: absolute;
+   right: 0;
+   top: 44px;
+   background: rgba(200, 200, 200, .5);
+}
+
+.submenu ul {
+   margin: 5px;
+   display: flex;
+   flex-direction: column;
+}
+
+.submenu ul li {
+   padding: 10px 0;
+   text-align: right;
+}
+
+.submenu ul li a {
+   color: #444;
+   text-decoration: none;
+   padding: 10px;
+   border: none;
+}
+
+.submenu ul li:hover {
+   background: rgba(150, 150, 150, .5);
 }
