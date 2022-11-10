@@ -1,0 +1,150 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+h1 {
+   text-align: center;
+   margin: 40px 0;
+}
+
+/* Первый Header */
+
+
+.headerFirst nav {
+   background-color: #444;
+   height: 70px;
+   width: 100%;
+   display: flex;
+}
+
+.headerFirst__menu {
+   width: 60%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.headerFirst ul {
+   list-style: none;
+   display: flex;
+}
+
+.headerFirst__menu a {
+   padding: 15px 50px;
+   border-right: 3px solid #555;
+}
+
+.headerFirst a {
+   color: #999;
+   text-decoration: none;
+   font-size: 14px;
+}
+
+.headerFirst a:hover {
+   color: lightgreen;
+   font-size: 16px;
+}
+
+.headerFirst__account {
+   width: 25%;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+
+.headerFirst__account li {
+   margin: 0 15px;
+   text-decoration: underline;
+}
+
+.headerFirst__account li i {
+   margin-right: 10px;
+}
+
+.headerFirst__lang {
+   width: 20%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.headerFirst__lang li {
+   margin: 0 10px;
+}
+
+.headerFirst__lang li:nth-child(2) a {
+   text-decoration: underline;
+}
+
+/* Навигационное меню*/
+
+.menu {
+   width: 15%;
+   background-color: #444;
+   margin: auto;
+}
+
+.menu ul {
+   padding: 10px 0;
+}
+
+.menu ul li {
+   list-style: none;
+   margin: 5px 15px;
+   padding: 5px;
+   border-top: 3px solid #555;
+   border-left: 3px solid #555;
+   border-bottom: 3px solid #555;
+   border-radius: 5px;
+}
+
+.menu a {
+   color: #999;
+   text-decoration: none;
+   font-size: 14px;
+}
+
+.menu li:hover {
+   background-color: #222;
+   font-weight: 700;
+}
+
+/* Второй Header */
+
+.headerSecond {
+   height: 70px;
+   width: 100%;
+   background-color: whitesmoke;
+   display: flex;
+   align-items: center;
+}
+
+.headerSecond nav {
+   width: 50%;
+   margin: auto;
+}
+
+.headerSecond nav ul {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+}
+
+.headerSecond a {
+   padding: 25px;
+   border-right: 1px solid lightgrey;
+   color: #444;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+.headerSecond li:nth-child(1) a {
+   font-weight: 700;
+}
+
+.headerSecond a:hover {
+   background-color: lightgrey;
+}
