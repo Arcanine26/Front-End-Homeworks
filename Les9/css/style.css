@@ -1,0 +1,265 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   min-height: 100vh;
+   background: linear-gradient(0deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../bg.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.container {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   height: 100vh;
+   width: 1200px;
+   margin: auto;
+}
+
+/* Header */
+
+.header {
+   background-color: #000;
+   width: 100vw;
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+
+.header__content {
+   height: 10vh;
+   width: 1200px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   left: 0;
+   right: 0;
+   margin: auto;
+}
+
+.header__logo {
+   font-size: 72px;
+   font-weight: 700;
+}
+
+.header__logo a {
+   color: #fff;
+   text-decoration: none;
+}
+
+.header__logo span {
+   color: orange;
+   font-weight: 300;
+}
+
+.header__nav nav ul {
+   display: flex;
+   align-items: center;
+}
+
+.header__nav nav ul li {
+   list-style: none;
+   margin-left: 35px;
+}
+
+.header__nav nav ul li a {
+   color: #989898;
+   text-decoration: none;
+   font-size: 24px;
+   transition: 1s;
+}
+
+
+.header__nav nav ul li a:hover {
+   font-size: 26px;
+   color: #555;
+}
+
+/* Main-Content */
+
+.main {
+   height: 75vh;
+   padding-top: 10vh;
+   display: flex;
+   flex-direction: space-between;
+   align-items: center;
+}
+
+.main__content {
+   width: 50%;
+}
+
+.main__content h1 {
+   font-size: 108px;
+   color: #fff;
+}
+
+.main__content h1 span {
+   color: orange;
+   font-weight: 300;
+}
+
+.main__content .underline {
+   height: 5px;
+   width: 100px;
+   margin: 40px 0;
+   background-color: #fff;
+   border-radius: 10px;
+}
+
+.main__content p:first-of-type {
+   text-transform: uppercase;
+   color: #fff;
+   font-size: 48px;
+   font-weight: 300;
+}
+
+.main__content p:last-of-type {
+   color: #aaa;
+   font-size: 20px;
+   margin-bottom: 40px;
+}
+
+.main__content button {
+   color: #fff;
+   font-size: 24px;
+   background: none;
+   border: 2px solid #fff;
+   padding: 15px 40px;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+.main__content button:hover {
+   color: #aaa;
+   border: 2px solid #aaa;
+}
+
+.main__form {
+   width: 50%;
+}
+
+.main__form form {
+   background-color: #fff;
+   width: 80%;
+   height: 40vh;
+   float: right;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.main__form form label {
+   height: 20%;
+   width: 100%;
+   background-color: #ddd;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 700;
+   font-size: 36px;
+   text-transform: capitalize;
+}
+
+.main__form form label span {
+   color: orange;
+   text-transform: uppercase;
+   margin: 0 14px;
+}
+
+.main__form form input {
+   border: none;
+   border-bottom: 3px solid #ddd;
+   height: 10%;
+   width: 70%;
+}
+
+.main__form form input:last-of-type {
+   margin-bottom: 20px;
+}
+
+.main__form form input:focus {
+   outline: none;
+}
+
+.main__form form button {
+   height: 15%;
+   background-color: orange;
+   color: #fff;
+   width: 100%;
+   font-size: 24px;
+   border: none;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+.main__form form button:hover {
+   background-color: rgb(255, 190, 70);
+   color: #ddd;
+}
+
+/* Footer */
+
+.footer {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100vw;
+   background-color: #fff;
+   height: 15vh;
+}
+
+.footer__underline {
+   height: 80%;
+   display: flex;
+   align-items: center;
+   border-bottom: 3px solid #aaa;
+}
+
+.footer__content {
+   width: 1200px;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer__content .footer__info {
+   width: 40%;
+}
+
+.footer__content .footer__info h3 {
+   font-size: 36px;
+}
+
+.footer__content .footer__info p {
+   font-size: 16px;
+   color: #aaa;
+}
+
+.footer__content .footer__socials {
+   width: 60%;
+}
+
+.footer__content .footer__socials ul {
+   display: flex;
+   justify-content: space-around;
+}
+
+.footer__content .footer__socials ul li {
+   list-style: none;
+}
+
+.footer__content .footer__socials ul li a {
+   color: #aaa;
+   font-size: 48px;
+   transition: .5s;
+}
+
+.footer__content .footer__socials ul li a:hover {
+   font-size: 50px;
+   color: #888;
+}
