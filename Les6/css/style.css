@@ -22,12 +22,12 @@
    margin: 0;
    box-sizing: border-box;
    font-family: 'Dancing_Script', cursive;
-   overflow: hidden;
 }
 
 .main {
    background-image: url(../img/bg.jpg);
    padding-top: 100px;
+   height: 70vh;
 }
 
 h1 {
@@ -64,6 +64,8 @@ h3 {
    background-color: rgba(0, 0, 0, .2);
    margin: 50px 30px;
    width: 25%;
+   height: 25vh;
+   overflow: hidden;
    padding: 30px;
 }
 
