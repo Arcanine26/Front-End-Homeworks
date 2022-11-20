@@ -110,6 +110,8 @@ textarea {
    cursor: pointer;
 }
 
+/* Adaptive */
+
 @media screen and (max-width: 668px) {
    .form__header {
       justify-content: space-around;
