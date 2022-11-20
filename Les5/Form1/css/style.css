@@ -109,3 +109,21 @@ textarea {
    margin: 0 10px;
    cursor: pointer;
 }
+
+@media screen and (max-width: 668px) {
+   .form__header {
+      justify-content: space-around;
+   }
+
+   .form .form__header select {
+      margin: 0;
+   }
+
+   .form__body {
+      flex-direction: column;
+   }
+
+   .form__body__left, .form__body__right {
+      width: 100%;
+   }
+}
